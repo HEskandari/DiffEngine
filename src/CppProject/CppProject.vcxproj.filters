@@ -27,9 +27,33 @@
     <ClInclude Include="CppProject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="JsonEscaping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PiperClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonEscaping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PiperClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

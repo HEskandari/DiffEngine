@@ -141,11 +141,19 @@
   <ItemGroup>
     <ClInclude Include="CppProject.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="JsonEscaping.h" />
+    <ClInclude Include="PiperClient.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="stringbuilder.h" />
+    <ClInclude Include="stringhelper.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppProject.cpp" />
+    <ClCompile Include="JsonEscaping.cpp" />
+    <ClCompile Include="PiperClient.cpp" />
+    <ClCompile Include="stringbuilder.cpp" />
+    <ClCompile Include="stringhelper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CppProject.rc" />
